@@ -7,17 +7,22 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import TopographicBackground from './components/TopographicBackground'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+      <TopographicBackground />
+
+      <div className="app-content">
+        <Navbar />
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
+      </div>
     </>
   )
 }
